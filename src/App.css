@@ -35,7 +35,7 @@ body {
 }
 
 .app__left {
-  flex: 0.9;
+  flex: 0.9; #uses up 90% of the screen
 }
 
 .app__information > h3 {
@@ -49,6 +49,7 @@ body {
   margin-top: 1rem;
 }
 
+#done so that the thing on the right goes below when window made smaller
 @media (max-width: 990px) {
   .app {
     flex-direction: column;
