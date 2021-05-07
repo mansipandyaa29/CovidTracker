@@ -1,7 +1,7 @@
 .table {
   margin-top: 20px;
-  overflow: scroll;
-  color: #6a5d5d;
+  overflow: scroll; #scrolling option if it overflows
+  color: #6a5d5d; # colour text grey
   background-color: white;
   height: 400px;
 }
@@ -16,6 +16,7 @@
   border: none;
 }
 
+#every single odd numbered row, go to it and set background colour to whats mentioned below
 .table tr:nth-of-type(odd) {
   background-color: #f3f2f8;
 }
