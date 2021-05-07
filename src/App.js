@@ -16,6 +16,7 @@ import Map from "./Map";
 import "leaflet/dist/leaflet.css";
 
 const App = () => {
+  
   const [country, setInputCountry] = useState("worldwide");
   const [countryInfo, setCountryInfo] = useState({});
   const [countries, setCountries] = useState([]);
@@ -70,7 +71,7 @@ const App = () => {
         setMapZoom(4);
       });
   };
-
+---------------------------------------------------------------------------------------
   return (
     <div className="app">
       <div className="app__left">
